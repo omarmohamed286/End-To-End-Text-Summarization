@@ -1,1 +1,103 @@
 [2024-03-25 05:35:58,560: INFO: main: Project up]
+[2024-03-26 20:42:02,550: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-26 20:42:02,552: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-26 20:42:02,553: INFO: common: created directory at: artifacts]
+[2024-03-26 20:42:02,554: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-26 20:42:30,785: INFO: 1434958058: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1716:0E1C:4104588:4402AD6:660316FB
+Accept-Ranges: bytes
+Date: Tue, 26 Mar 2024 18:42:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lin2290033-LIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1711478523.467525,VS0,VE828
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 242750f215b380810a2f057b47ad3aaf5f0ef32a
+Expires: Tue, 26 Mar 2024 18:47:04 GMT
+Source-Age: 1
+
+]
+[2024-03-26 20:44:38,622: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-26 20:44:38,624: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-26 20:44:38,624: INFO: common: created directory at: artifacts]
+[2024-03-26 20:44:38,626: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-26 20:45:00,729: INFO: 1434958058: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1716:0E1C:4104588:4402AD6:660316FB
+Accept-Ranges: bytes
+Date: Tue, 26 Mar 2024 18:44:39 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lin2290034-LIN
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1711478679.333040,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1004531465c34df2cdd029d4c29714a82023e82e
+Expires: Tue, 26 Mar 2024 18:49:39 GMT
+Source-Age: 156
+
+]
+[2024-03-26 21:42:15,347: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-26 21:42:15,352: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-26 21:42:15,353: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-26 21:42:15,354: INFO: common: created directory at: artifacts]
+[2024-03-26 21:42:15,354: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-26 21:42:27,779: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-26 21:42:27,783: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-26 21:42:27,785: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-26 21:42:27,785: INFO: common: created directory at: artifacts]
+[2024-03-26 21:42:27,786: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-26 21:42:53,261: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 448E:0DCD:37850FB:3A09199:66032517
+Accept-Ranges: bytes
+Date: Tue, 26 Mar 2024 19:42:28 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lin2290034-LIN
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1711482148.264607,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6607ddb1d2753317e159b909cbf700e79edd32ee
+Expires: Tue, 26 Mar 2024 19:47:28 GMT
+Source-Age: 12
+
+]
+[2024-03-26 21:42:53,426: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]

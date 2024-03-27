@@ -560,3 +560,9 @@ x==========x]
 [2024-03-27 05:35:52,909: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-03-27 06:23:13,880: WARNING: module_wrapper: From C:\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-27 06:24:33,715: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 06:24:33,720: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 06:24:33,721: INFO: common: created directory at: artifacts]
+[2024-03-27 06:24:33,721: INFO: common: created directory at: artifacts/model_evaluation]

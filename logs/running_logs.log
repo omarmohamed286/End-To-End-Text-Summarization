@@ -148,3 +148,415 @@ x==========x]
 [2024-03-27 01:10:59,318: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2024-03-27 01:39:45,035: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 01:39:45,037: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 01:40:00,658: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 01:40:00,659: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 01:40:00,661: INFO: common: created directory at: artifacts]
+[2024-03-27 01:41:59,526: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 01:41:59,528: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 01:41:59,720: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 01:41:59,722: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 01:41:59,724: INFO: common: created directory at: artifacts]
+[2024-03-27 01:41:59,725: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-27 03:07:35,549: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 03:07:35,552: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 03:07:36,053: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-27 03:07:36,060: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 03:07:36,062: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 03:07:36,063: INFO: common: created directory at: artifacts]
+[2024-03-27 03:07:36,063: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-27 03:08:13,168: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 729E:0E20:E29F01:EC4E93:66037157
+Accept-Ranges: bytes
+Date: Wed, 27 Mar 2024 01:07:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lin2290022-LIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1711501657.658537,VS0,VE529
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 94d7da812a099a23fbf19edd63441025d6dabcd1
+Expires: Wed, 27 Mar 2024 01:12:37 GMT
+Source-Age: 0
+
+]
+[2024-03-27 03:08:13,348: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-27 03:08:13,349: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-27 03:08:13,363: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 03:08:13,365: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 03:08:13,366: INFO: common: created directory at: artifacts]
+[2024-03-27 03:08:13,367: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-27 03:08:13,374: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-27 03:08:13,375: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-27 03:08:13,392: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 03:08:13,396: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 03:08:13,396: INFO: common: created directory at: artifacts]
+[2024-03-27 03:08:13,397: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-27 03:08:21,450: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "F:\AI Projects\End-To-End-Text-Summarization\main.py", line 32, in <module>
+    data_transformation.main()
+  File "F:\AI Projects\End-To-End-Text-Summarization\src\textSummarizer\pipeline\stage_03_data_transformation.py", line 14, in main
+    data_transformation.convert()
+  File "F:\AI Projects\End-To-End-Text-Summarization\src\textSummarizer\components\data_transformation.py", line 29, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+                                   ^^
+NameError: name 'os' is not defined
+[2024-03-27 03:08:52,291: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 03:08:52,294: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 03:08:52,731: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-27 03:08:52,742: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 03:08:52,743: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 03:08:52,745: INFO: common: created directory at: artifacts]
+[2024-03-27 03:08:52,746: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-27 03:09:38,021: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 729E:0E20:E29F01:EC4E93:66037157
+Accept-Ranges: bytes
+Date: Wed, 27 Mar 2024 01:08:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lin2290023-LIN
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1711501733.121854,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9ba37cba6e4558c64462ea5b6b25d614ffc3393a
+Expires: Wed, 27 Mar 2024 01:13:53 GMT
+Source-Age: 76
+
+]
+[2024-03-27 03:09:38,147: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-27 03:09:38,148: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-27 03:09:38,155: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 03:09:38,156: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 03:09:38,156: INFO: common: created directory at: artifacts]
+[2024-03-27 03:09:38,157: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-27 03:09:38,158: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-27 03:09:38,159: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-27 03:09:38,164: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 03:09:38,166: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 03:09:38,166: INFO: common: created directory at: artifacts]
+[2024-03-27 03:09:38,167: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-27 03:09:44,950: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-27 03:15:54,226: WARNING: module_wrapper: From c:\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-27 03:15:55,236: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 03:15:55,238: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 03:19:48,230: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 03:19:48,233: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 03:19:48,234: INFO: common: created directory at: artifacts]
+[2024-03-27 03:19:48,235: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 03:23:37,992: WARNING: module_wrapper: From c:\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-27 03:23:38,579: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 03:23:38,580: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 03:23:38,938: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 03:23:38,941: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 03:23:38,942: INFO: common: created directory at: artifacts]
+[2024-03-27 03:23:38,943: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 03:26:42,923: WARNING: module_wrapper: From c:\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-27 03:26:43,424: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 03:26:43,426: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 03:26:43,745: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 03:26:43,747: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 03:26:43,749: INFO: common: created directory at: artifacts]
+[2024-03-27 03:26:43,750: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 04:23:25,691: WARNING: module_wrapper: From c:\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-27 04:23:26,631: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 04:23:26,632: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 04:23:27,063: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:23:27,067: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:23:27,068: INFO: common: created directory at: artifacts]
+[2024-03-27 04:23:27,069: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 04:26:13,978: WARNING: file_download: Error while downloading from https://cdn-lfs-us-1.huggingface.co/repos/9d/9e/9d9e6b97af31f141e2c5101961a1e9aeedb560a93a94359486e71d26f285372f/c2fa71c28e7fe875fd5cf0d1d39737d326db9f2c800acdd637d5528ada3a711d?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1711765414&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcxMTc2NTQxNH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmh1Z2dpbmdmYWNlLmNvL3JlcG9zLzlkLzllLzlkOWU2Yjk3YWYzMWYxNDFlMmM1MTAxOTYxYTFlOWFlZWRiNTYwYTkzYTk0MzU5NDg2ZTcxZDI2ZjI4NTM3MmYvYzJmYTcxYzI4ZTdmZTg3NWZkNWNmMGQxZDM5NzM3ZDMyNmRiOWYyYzgwMGFjZGQ2MzdkNTUyOGFkYTNhNzExZD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Wpbsv48A4oqZR2WkGqvLkwrlb6%7ES2oA9hn3aacflWfUF4lOoSoFFu5iaSCaNP81kI1-0thyuUvb3ZWIjuKnQIn30BrJ0aovHzqyFABW4iT2%7E0i6YE5zzmdAxpvvnfxO5O6qCm5UYOS-VvV6aUbrbSfk81fgMqe2K7V38OrvuvNbfz2Sh4402bm37idej6L58qquoLB8tuNPexjVHc9VEDDxjqMjgL8JK1BEuqeFSKVZ8iJmGR%7EEVkKekxKIER0FKt-m5Bl7llEdRWoTNavS-6tLmPnEoOzxHkAtw1L1IrjUy1yNJBAOWxDqjn3E06RFxyVtkF0buE%7E0epFaGjCDkng__&Key-Pair-Id=KCD77M1F0VK2B: HTTPSConnectionPool(host='cdn-lfs-us-1.huggingface.co', port=443): Read timed out.
+Trying to resume download...]
+[2024-03-27 04:30:20,039: WARNING: module_wrapper: From c:\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-27 04:30:20,565: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 04:30:20,567: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 04:30:20,886: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:30:20,889: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:30:20,891: INFO: common: created directory at: artifacts]
+[2024-03-27 04:30:20,892: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 04:39:19,827: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:39:19,830: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:39:19,831: INFO: common: created directory at: artifacts]
+[2024-03-27 04:39:19,832: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 04:39:40,930: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:39:40,933: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:39:40,934: INFO: common: created directory at: artifacts]
+[2024-03-27 04:39:40,936: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 04:40:09,358: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:40:09,360: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:40:09,361: INFO: common: created directory at: artifacts]
+[2024-03-27 04:40:09,362: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 04:40:41,452: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:40:41,454: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:40:41,456: INFO: common: created directory at: artifacts]
+[2024-03-27 04:40:41,457: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 04:41:05,520: WARNING: module_wrapper: From c:\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-27 04:41:06,519: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 04:41:06,521: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 04:41:06,831: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:41:06,833: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:41:06,835: INFO: common: created directory at: artifacts]
+[2024-03-27 04:41:06,837: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 04:42:41,750: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:42:41,754: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:42:41,755: INFO: common: created directory at: artifacts]
+[2024-03-27 04:42:41,756: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 04:49:19,941: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 04:49:19,942: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 04:49:20,101: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-27 04:49:20,103: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:49:20,104: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:49:20,104: INFO: common: created directory at: artifacts]
+[2024-03-27 04:49:20,104: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-27 04:49:35,143: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B322:362EF2:A1D55A:A7FF4E:66038931
+Accept-Ranges: bytes
+Date: Wed, 27 Mar 2024 02:49:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lin2290020-LIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1711507761.168722,VS0,VE498
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 056d19e75a7395223e44575a04de696755dbf191
+Expires: Wed, 27 Mar 2024 02:54:21 GMT
+Source-Age: 0
+
+]
+[2024-03-27 04:49:35,253: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-27 04:49:35,254: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-27 04:49:35,256: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:49:35,257: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:49:35,257: INFO: common: created directory at: artifacts]
+[2024-03-27 04:49:35,257: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-27 04:49:35,258: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-27 04:49:35,258: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-27 04:49:35,260: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:49:35,261: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:49:35,262: INFO: common: created directory at: artifacts]
+[2024-03-27 04:49:35,262: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-27 04:49:40,081: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-27 04:50:13,528: WARNING: module_wrapper: From c:\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-27 04:50:14,017: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 04:50:14,019: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 04:50:14,235: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 04:50:14,239: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 04:50:14,241: INFO: common: created directory at: artifacts]
+[2024-03-27 04:50:14,242: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 05:03:10,443: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 05:03:10,445: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 05:03:27,017: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 05:03:27,021: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 05:03:45,730: WARNING: module_wrapper: From c:\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-27 05:03:46,263: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-27 05:03:46,273: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:03:46,279: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:03:46,281: INFO: common: created directory at: artifacts]
+[2024-03-27 05:03:46,281: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-27 05:04:00,398: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B322:362EF2:A1D55A:A7FF4E:66038931
+Accept-Ranges: bytes
+Date: Wed, 27 Mar 2024 03:03:46 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lin2290031-LIN
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1711508627.786826,VS0,VE132
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0a51b0e71509be0f18200dd0743043fd7f259878
+Expires: Wed, 27 Mar 2024 03:08:46 GMT
+Source-Age: 0
+
+]
+[2024-03-27 05:04:00,526: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-27 05:04:00,527: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-27 05:04:00,533: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:04:00,538: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:04:00,539: INFO: common: created directory at: artifacts]
+[2024-03-27 05:04:00,540: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-27 05:04:00,541: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-27 05:04:00,542: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-27 05:04:00,548: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:04:00,552: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:04:00,554: INFO: common: created directory at: artifacts]
+[2024-03-27 05:04:00,554: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-27 05:04:06,299: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-27 05:04:06,300: INFO: main: *******************]
+[2024-03-27 05:04:06,300: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-27 05:04:06,309: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:04:06,313: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:04:06,313: INFO: common: created directory at: artifacts]
+[2024-03-27 05:04:06,314: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 05:09:04,771: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-03-27 05:11:14,313: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 05:11:14,315: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 05:12:10,772: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:12:10,778: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:12:10,780: INFO: common: created directory at: artifacts]
+[2024-03-27 05:12:10,781: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-27 05:13:55,341: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:13:55,343: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:13:55,344: INFO: common: created directory at: artifacts]
+[2024-03-27 05:13:55,345: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-27 05:14:29,159: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 05:14:29,162: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 05:14:29,422: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:14:29,425: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:14:29,426: INFO: common: created directory at: artifacts]
+[2024-03-27 05:14:29,427: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-27 05:16:39,252: INFO: rouge_scorer: Using default tokenizer.]
+[2024-03-27 05:28:37,505: INFO: config: PyTorch version 2.2.0 available.]
+[2024-03-27 05:28:37,507: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-03-27 05:28:55,987: WARNING: module_wrapper: From c:\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-27 05:28:56,553: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-27 05:28:56,565: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:28:56,569: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:28:56,570: INFO: common: created directory at: artifacts]
+[2024-03-27 05:28:56,571: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-27 05:29:11,290: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B322:362EF2:A1D55A:A7FF4E:66038931
+Accept-Ranges: bytes
+Date: Wed, 27 Mar 2024 03:28:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lin2290022-LIN
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1711510138.611315,VS0,VE143
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 623a551bfd7070a1952b9b6dd64cc40bbedd099e
+Expires: Wed, 27 Mar 2024 03:33:57 GMT
+Source-Age: 0
+
+]
+[2024-03-27 05:29:11,415: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-27 05:29:11,415: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-27 05:29:11,424: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:29:11,428: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:29:11,429: INFO: common: created directory at: artifacts]
+[2024-03-27 05:29:11,430: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-27 05:29:11,431: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-27 05:29:11,432: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-27 05:29:11,442: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:29:11,446: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:29:11,447: INFO: common: created directory at: artifacts]
+[2024-03-27 05:29:11,448: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-27 05:29:16,411: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-27 05:29:16,412: INFO: main: *******************]
+[2024-03-27 05:29:16,412: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-27 05:29:16,422: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:29:16,426: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:29:16,427: INFO: common: created directory at: artifacts]
+[2024-03-27 05:29:16,427: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-27 05:34:08,630: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-03-27 05:34:08,631: INFO: main: *******************]
+[2024-03-27 05:34:08,632: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2024-03-27 05:34:08,798: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:34:08,805: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:34:08,806: INFO: common: created directory at: artifacts]
+[2024-03-27 05:34:08,808: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-27 05:35:52,513: INFO: rouge_scorer: Using default tokenizer.]
+[2024-03-27 05:35:52,909: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
